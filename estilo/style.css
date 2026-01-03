@@ -99,7 +99,9 @@ footer {
 
 @media (max-width: 768px) {
   .imagem {
-    background-attachment: scroll; /* Desativa o fixo que trava */
+    background-attachment: scroll !important; /* Desativa o fixo que trava */
     /* Ou use position: sticky se a estrutura permitir */
+    background-size: cover;
+    background-position: center;
   }
 }
